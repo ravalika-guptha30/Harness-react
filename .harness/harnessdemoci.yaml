@@ -28,8 +28,8 @@ pipeline:
             steps:
               - step:
                   type: BuildAndPushDockerRegistry
-                  name: BuildAndPushDockerRegistry_1
-                  identifier: BuildAndPushDockerRegistry_1
+                  name: BuildAndPushDockerRegistry_2
+                  identifier: BuildAndPushDockerRegistry_2
                   spec:
                     connectorRef: vasanthdockerhub
                     repo: vasanthagokul/todo-react
