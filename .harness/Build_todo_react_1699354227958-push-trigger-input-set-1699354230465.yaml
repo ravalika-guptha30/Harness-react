@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_todo_react_1699354227958-push-trigger-input-set
+  identifier: Build_todo_react_1699354227958pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_todo_react_1699354227958
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
