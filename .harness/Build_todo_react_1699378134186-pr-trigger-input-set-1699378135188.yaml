@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_todo_react_1699378134186-pr-trigger-input-set
+  identifier: Build_todo_react_1699378134186prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demoHarnessCICD
+  pipeline:
+    identifier: Build_todo_react_1699378134186
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
