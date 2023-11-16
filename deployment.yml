@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: harness-react-deployment
+  labels:
+    app: harness-react
 spec:
   replicas: 1
   selector:
@@ -15,3 +17,5 @@ spec:
       containers:
       - name: harness-react
         image: ravalika30/react:latest
+        ports:
+        - containerPort: 3000
