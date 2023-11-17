@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: harness-react
-        image: ravalika30/react:latest
+        image: vivek/react:latest
         ports:
         - containerPort: 3000
