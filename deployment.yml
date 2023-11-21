@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: harness-react-deployment
+  name: sample-harness-react
   labels:
-    app: harness-react
+    app: sample-harness-react
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: harness-react
+      app: sample-harness-react
   template:
     metadata:
       labels:
-        app: harness-react
+        app: sample-harness-react
     spec:
       containers:
-      - name: harness-react
+      - name: sample-harness-react
         image: vivek756/react:latest
         ports:
         - containerPort: 3000
